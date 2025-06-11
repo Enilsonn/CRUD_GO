@@ -58,7 +58,7 @@ A API estará disponível em:\
 # Criar um usuário
 curl -X POST http://localhost:8080/ \
   -H "Content-Type: application/json" \
-  -d '{"name":"Maria","email":"maria@email.com","phone":"123456"}'
+  -d '{"name":"Fabio","email":"fabiolima@email.com","phone":"123456"}'
 
 # Buscar todos os usuários
 curl http://localhost:8080/
